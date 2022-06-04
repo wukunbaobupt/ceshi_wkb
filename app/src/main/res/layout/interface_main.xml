@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/simpleflower"
+    android:orientation="horizontal"
+    tools:context=".maininterface"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/square_white">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:text="我的设备"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_back2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+
+        >
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_temp"
+        android:layout_width="120sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="150sp"
+        android:background="@drawable/square_white_c"
+        android:gravity="center"
+        android:text="温度"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText">
+
+        >
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_wet"
+        android:layout_width="120sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="150sp"
+        android:background="@drawable/square_white_c"
+        android:gravity="center"
+        android:text="湿度"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText">>
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_fan"
+        android:layout_width="120sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="320sp"
+        android:background="@drawable/square_white_c"
+        android:gravity="center"
+        android:text="风扇"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText">>
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_strength"
+        android:layout_width="120sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="490sp"
+        android:background="@drawable/square_white_c"
+        android:gravity="center"
+        android:text="室内亮度"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText">
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_light"
+        android:layout_width="120sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="490sp"
+        android:background="@drawable/square_white_c"
+        android:gravity="center"
+        android:text="@string/灯光"
+        android:textSize="20sp">
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_secure"
+        android:layout_width="120sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="320sp"
+        android:background="@drawable/square_white_c"
+        android:gravity="center"
+        android:text="@string/智能安保"
+        android:textSize="20sp">
+
+
+    </Button>
+
+
+
+
+</RelativeLayout>

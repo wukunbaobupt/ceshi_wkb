@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starry_sky"
+    android:padding="70dp"
+    android:orientation="horizontal"
+    tools:context=".SignUpActivity"
+
+
+
+
+    >
+    <EditText
+        android:id="@+id/ed_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:hint="新用户名"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+
+        android:background="@drawable/roundbutton"
+
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColorHint="#80000000"
+        tools:ignore="HardcodedText"
+
+
+        >
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ed_4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="新密码"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColorHint="#80000000"
+        android:background="@drawable/roundbutton"
+        android:layout_below="@+id/ed_3"
+        android:layout_marginTop="30dp"
+
+        tools:ignore="HardcodedText">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ed_5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="确认密码"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColorHint="#80000000"
+        android:background="@drawable/roundbutton"
+        android:layout_below="@+id/ed_4"
+        android:layout_marginTop="30dp"
+
+        tools:ignore="HardcodedText">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/btn_confirmregister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/ed_5"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/roundbutton"
+        android:text="立即注册"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#2F4F4F"
+        tools:ignore="HardcodedText">
+
+
+    </Button>
+</RelativeLayout>
