@@ -15,15 +15,13 @@ public class maininterface extends Activity {
         setContentView(R.layout.interface_main);
 
         //关联按钮
-        Button mbtntemp = findViewById(R.id.btn_temp);
-        Button mbtnwet=findViewById(R.id.btn_wet);
+        Button mbtntemp = findViewById(R.id.btn_temp_wet);
         Button mbtnsecure=findViewById(R.id.btn_secure);
         Button mbtnfan=findViewById(R.id.btn_fan);
         Button mbtnlight=findViewById(R.id.btn_light);
-        Button mbtnstrength=findViewById(R.id.btn_strength);
         Button mbtnback=findViewById(R.id.btn_back2);
 
-        //温度按钮监听
+        //温湿度按钮监听
         mbtntemp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,15 +31,6 @@ public class maininterface extends Activity {
             }
         });
 
-        //湿度按钮监听
-        mbtnwet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //跳转到湿度界面
-                Intent intent=new Intent(maininterface.this,WetActivity.class);
-                startActivity(intent);
-            }
-        });
 
         //智能安保按钮监听
         mbtnsecure.setOnClickListener(new View.OnClickListener() {
@@ -73,15 +62,6 @@ public class maininterface extends Activity {
             }
         });
 
-        //室内亮度按钮监听
-        mbtnstrength.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //跳转到界面
-                Intent intent=new Intent(maininterface.this,StrengthActivity.class);
-                startActivity(intent);
-            }
-        });
 
         //返回登录界面
         mbtnback.setOnClickListener(new View.OnClickListener() {

@@ -41,14 +41,15 @@
     </Button>
 
     <Button
-        android:id="@+id/btn_temp"
+        android:id="@+id/btn_temp_wet"
         android:layout_width="120sp"
         android:layout_height="100sp"
         android:layout_marginStart="10sp"
-        android:layout_marginTop="150sp"
+        android:layout_marginTop="180sp"
         android:background="@drawable/square_white_c"
         android:gravity="center"
-        android:text="温度"
+        android:text="温湿度"
+        android:textColor="@color/black"
         android:textSize="20sp"
         tools:ignore="HardcodedText">
 
@@ -58,16 +59,16 @@
     </Button>
 
     <Button
-        android:id="@+id/btn_wet"
+        android:id="@+id/btn_light"
         android:layout_width="120sp"
         android:layout_height="100sp"
-        android:layout_marginStart="230sp"
-        android:layout_marginTop="150sp"
+        android:layout_marginStart="180sp"
+        android:layout_marginTop="180sp"
         android:background="@drawable/square_white_c"
         android:gravity="center"
-        android:text="湿度"
-        android:textSize="20sp"
-        tools:ignore="HardcodedText">>
+        android:text="灯光"
+        android:textColor="@color/black"
+        android:textSize="20sp">
 
 
     </Button>
@@ -76,42 +77,14 @@
         android:id="@+id/btn_fan"
         android:layout_width="120sp"
         android:layout_height="100sp"
-        android:layout_marginStart="230sp"
-        android:layout_marginTop="320sp"
+        android:layout_marginStart="180sp"
+        android:layout_marginTop="360sp"
         android:background="@drawable/square_white_c"
         android:gravity="center"
         android:text="风扇"
+        android:textColor="@color/black"
         android:textSize="20sp"
         tools:ignore="HardcodedText">>
-
-
-    </Button>
-
-    <Button
-        android:id="@+id/btn_strength"
-        android:layout_width="120sp"
-        android:layout_height="100sp"
-        android:layout_marginStart="230sp"
-        android:layout_marginTop="490sp"
-        android:background="@drawable/square_white_c"
-        android:gravity="center"
-        android:text="室内亮度"
-        android:textSize="20sp"
-        tools:ignore="HardcodedText">
-
-
-    </Button>
-
-    <Button
-        android:id="@+id/btn_light"
-        android:layout_width="120sp"
-        android:layout_height="100sp"
-        android:layout_marginStart="10sp"
-        android:layout_marginTop="490sp"
-        android:background="@drawable/square_white_c"
-        android:gravity="center"
-        android:text="@string/灯光"
-        android:textSize="20sp">
 
 
     </Button>
@@ -121,10 +94,11 @@
         android:layout_width="120sp"
         android:layout_height="100sp"
         android:layout_marginStart="10sp"
-        android:layout_marginTop="320sp"
+        android:layout_marginTop="360sp"
         android:background="@drawable/square_white_c"
         android:gravity="center"
-        android:text="@string/智能安保"
+        android:text="智能安保"
+        android:textColor="@color/black"
         android:textSize="20sp">
 
 

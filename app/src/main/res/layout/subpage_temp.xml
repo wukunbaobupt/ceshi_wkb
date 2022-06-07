@@ -9,13 +9,6 @@
     tools:ignore="ExtraText">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@drawable/square_white">
-
-    </TextView>
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -53,8 +46,179 @@
 
     </RadioButton>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/fan_unlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/unlock">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/fan_unlock_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="界面已解锁"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:typeface="serif">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/fan">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="设备状况:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:typeface="serif">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/dht_state_button"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_circle_gray">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/dht_state_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="获取中"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:typeface="serif">
+
+            </TextView>
 
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/humidity">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="湿  度"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_H"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dp"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/temperature">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="温  度"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_T"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dp"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 
 
