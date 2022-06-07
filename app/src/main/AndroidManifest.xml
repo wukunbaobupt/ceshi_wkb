@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ceshi">
-    <!--允许程序打开网络套接字-->
-<uses-permission android:name="android.permission.INTERNET" />
-    <!--允许程序获取网络状态-->
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- 允许程序打开网络套接字 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 允许程序获取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ceshi">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -22,30 +23,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignUpActivity">
-
-        </activity>
-        <activity android:name=".maininterface">
-
-        </activity>
-        <activity android:name=".TempActivity">
-
-        </activity>
-        <activity android:name=".WetActivity">
-
-        </activity>
-        <activity android:name=".SecureActivity">
-
-        </activity>
-        <activity android:name=".FanActivity">
-
-        </activity>
-        <activity android:name=".LightActivity">
-
-        </activity>
-        <activity android:name=".StrengthActivity">
-
-        </activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".maininterface" />
+        <activity android:name=".TempActivity" />
+        <activity android:name=".WetActivity" />
+        <activity android:name=".SecureActivity" />
+        <activity android:name=".FanActivity" />
+        <activity android:name=".LightActivity" />
+        <activity android:name=".StrengthActivity" />
     </application>
 
 </manifest>

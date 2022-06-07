@@ -21,6 +21,15 @@
         <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/subpage_strength.xml" value="0.1956521739130435" />
         <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/subpage_temp.xml" value="0.1956521739130435" />
         <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/subpage_wet.xml" value="0.1956521739130435" />
+        <entry key="..\:/ceshi2/app/src/main/res/drawable/shape_circle.xml" value="0.145" />
+        <entry key="..\:/ceshi2/app/src/main/res/drawable/shape_circle_gray.xml" value="0.145" />
+        <entry key="..\:/ceshi2/app/src/main/res/drawable/shape_circle_green.xml" value="0.145" />
+        <entry key="..\:/ceshi2/app/src/main/res/drawable/shape_circle_red.xml" value="0.145" />
+        <entry key="..\:/ceshi2/app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
+        <entry key="..\:/ceshi2/app/src/main/res/layout/activity_sign_up.xml" value="0.27395833333333336" />
+        <entry key="..\:/ceshi2/app/src/main/res/layout/interface_main.xml" value="0.27395833333333336" />
+        <entry key="..\:/ceshi2/app/src/main/res/layout/subpage_fan.xml" value="0.27395833333333336" />
+        <entry key="..\:/ceshi2/app/src/main/res/layout/subpage_secure.xml" value="0.27395833333333336" />
       </map>
     </option>
   </component>
