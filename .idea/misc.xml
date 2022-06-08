@@ -3,15 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/android/android_projects/ceshi2/app/src/main/res/layout/activity_main.xml" value="0.109375" />
-        <entry key="..\:/android/android_projects/ceshi2/app/src/main/res/layout/activity_sign_up.xml" value="0.109375" />
-        <entry key="..\:/android/android_projects/ceshi2/app/src/main/res/layout/interface_main.xml" value="0.176" />
-        <entry key="..\:/android/android_projects/ceshi2/app/src/main/res/layout/subpage_fan.xml" value="0.2" />
-        <entry key="..\:/android/android_projects/ceshi2/app/src/main/res/layout/subpage_light.xml" value="0.2" />
-        <entry key="..\:/android/android_projects/ceshi2/app/src/main/res/layout/subpage_secure.xml" value="0.176" />
-        <entry key="..\:/android/android_projects/ceshi2/app/src/main/res/layout/subpage_strength.xml" value="0.109375" />
-        <entry key="..\:/android/android_projects/ceshi2/app/src/main/res/layout/subpage_temp.xml" value="0.264" />
-        <entry key="..\:/android/android_projects/ceshi2/app/src/main/res/layout/subpage_wet.xml" value="0.109375" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1175" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/drawable-v24/roundbutton.xml" value="0.1175" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/drawable-v24/square_white.xml" value="0.1175" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/drawable-v24/square_white_c.xml" value="0.1175" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/drawable/button_switch.xml" value="0.1175" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/drawable/chat_more_switch_nomal.xml" value="0.1175" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/drawable/chat_more_switch_selector.xml" value="0.1175" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/drawable/newswitch.xml" value="0.1175" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/activity_main.xml" value="0.14792299898682879" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/activity_sign_up.xml" value="0.14792299898682879" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/interface_main.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/maininterface.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/subpage_fan.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/subpage_light.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/subpage_secure.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/subpage_strength.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/subpage_temp.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/sky/AndroidStudioProjects/ceshi/app/src/main/res/layout/subpage_wet.xml" value="0.1956521739130435" />
       </map>
     </option>
   </component>
